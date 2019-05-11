@@ -1,29 +1,26 @@
 # Graduate Exercise
 
-## Setup
+## Implementation
 
-Requirements:
-- git (https://help.github.com/en/articles/set-up-git)
-- node/npm (https://nodejs.org/en/download/)
-- github account (https://github.com)
+I decided to implement the todo app using reactjs since it is my favorite js library.
+To use react I decided to setup babel and webpack to render the development experience faster and smoother.
 
-You should clone this repository and run `npm install` from the correct directory within your terminal. Once all of the files are installed, you should be able to run `npm run dev` - you should see the following:
+## Changes
 
-`🚄 Server running @ http://localhost:3000`
-
-If you open your browser and point it to that URL, you should see a blank HMTL.
+On the server part of the app I decided to add Cross-Origin Resource Sharing (cors) headers to allow the frontend to access the api and the list of the todo items.
 
 ## Tasks
 
-Now that you’re setup, you will need to complete a few tasks - the core functionality of the application is to display information around _todo_ tasks.
+1.  All the items get fetched inside the use effect and then reordered in descending order to achieve the task using the sort function provided by js.
+    Then I render all the todos using the map function.
 
-Whilst you have been provided with a blank HTML page which loads a CSS and Javascript file, you are able to change all parts of the existing code, as long as we complete the following tasks:
+2.  The total number of todos gets displayed using the length of the array.
 
-- Load and display the _todo_ items `title` from http://localhost:3000/api/todos ordering them on their ID in descending order
-- Display the total number of _todo_ items
-- Display the completed number of _todo_ items
-- Add styling
+3. The total of the completed todos is achieved using the filter function, clearing out all the elements that are not completed and then getting the total length of the            remaining items.
+
+## Extra
+
+I decided to add a button to allow the user to choose the ordering of the elements (Ascending, Descending)
 
 ## Submission
 
-Once you have completed the task, we ask that you create a github repository and send it over to us for review.
