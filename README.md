@@ -21,6 +21,3 @@ On the server part of the app I decided to add Cross-Origin Resource Sharing (co
 ## Extra
 
 I decided to add a button to allow the user to choose the ordering of the elements (Ascending, Descending)
-
-## Submission
-
