@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/EurostarDigital/graduate_exercise#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "4.16.4",
     "nodemon": "1.19.0",
     "react": "^16.8.6",
