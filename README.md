@@ -24,4 +24,4 @@ I decided to add a button to allow the user to choose the ordering of the elemen
 
 ## Run
 
-To run the app two non commands are needed ‘npm run dev’ ti run the server and ‘npm run start’ to run the frontend.
+To run the app two non commands are needed `npm run dev` ti run the server and `npm run start` to run the frontend.
